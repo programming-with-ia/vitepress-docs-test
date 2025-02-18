@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/zx/',
+  base: '/vitepress-docs-test/',
   // outDir: 'build',
   cleanUrls: true,
   title: 'google/zx',
@@ -14,7 +14,7 @@ export default defineConfig({
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/zx/img/favicons/apple-touch-icon.png',
+        href: '/vitepress-docs-test/img/favicons/apple-touch-icon.png',
       },
     ],
     [
@@ -23,7 +23,7 @@ export default defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/zx/img/favicons/favicon-32x32.png',
+        href: '/vitepress-docs-test/img/favicons/favicon-32x32.png',
       },
     ],
     [
@@ -32,20 +32,20 @@ export default defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/zx/img/favicons/favicon-16x16.png',
+        href: '/vitepress-docs-test/img/favicons/favicon-16x16.png',
       },
     ],
     [
       'link',
       {
         rel: 'mask-icon',
-        href: '/zx/img/favicons/safari-pinned-tab.svg',
+        href: '/vitepress-docs-test/img/favicons/safari-pinned-tab.svg',
         color: '#3a0839',
       },
     ],
-    ['link', { rel: 'shortcut icon', href: '/zx/img/favicons/favicon.ico' }],
-    ['meta', { name: 'og:image', content: '/zx/img/og-image.png' }],
-    ['meta', { name: 'twitter:image', content: '/zx/img/og-image.png' }],
+    ['link', { rel: 'shortcut icon', href: '/vitepress-docs-test/img/favicons/favicon.ico' }],
+    ['meta', { name: 'og:image', content: '/vitepress-docs-test/img/og-image.png' }],
+    ['meta', { name: 'twitter:image', content: '/vitepress-docs-test/img/og-image.png' }],
   ],
   themeConfig: {
     logo: '/img/logo.svg',
@@ -111,7 +111,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/google/zx' }],
 
     editLink: {
-      pattern: 'https://github.com/google/zx/blob/main/docs/:path',
+      pattern: 'https://github.com/google/vitepress-docs-test/blob/main/docs/:path',
     },
 
     footer: {
