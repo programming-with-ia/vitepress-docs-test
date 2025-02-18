@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/zx/',
-  outDir: 'build',
+  // outDir: 'build',
   cleanUrls: true,
   title: 'google/zx',
   titleTemplate: ':title | google/zx',

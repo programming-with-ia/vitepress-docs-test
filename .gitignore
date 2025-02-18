@@ -6,3 +6,4 @@ reports/
 docs/.vitepress/cache/
 yarn.lock
 temp
+docs/.vitepress/dist
