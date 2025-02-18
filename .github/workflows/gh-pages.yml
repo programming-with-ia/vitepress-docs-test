@@ -49,7 +49,7 @@ jobs:
           pnpm run build
           touch .vitepress/build/.nojekyll
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/build
 
